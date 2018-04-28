@@ -1,0 +1,79 @@
+#hybridWrap, #managementWrap, #edWrap, #hospitalistWrap {
+    padding-top: 35.3px;
+    padding-bottom: 10.7px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 2%;
+}
+#hospitalistWrap {
+    background: url(http://solution21inc.com/dev-hccdoc/wp-content/uploads/2016/09/hccdoc-full-time-hospitalized-programs.png) no-repeat center center;
+}
+.hvr-bounce-to-top {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+#edWrap {
+    background: url(http://solution21inc.com/dev-hccdoc/wp-content/uploads/2016/10/hccdoc-ed-program-3.png) no-repeat center center;
+}
+#managementWrap {
+    background: url(http://solution21inc.com/dev-hccdoc/wp-content/uploads/2016/09/hccdoc-hospitalist-management-programs.png) no-repeat center center;
+}
+#hybridWrap {
+    background: url(http://solution21inc.com/dev-hccdoc/wp-content/uploads/2016/09/hccdoc-hybrid-ed.png) no-repeat center center;
+}
+.four-light-wrap h3, .four-light-mobile-wrap h3 {
+    font-size: 32px;
+    color: #fff;
+    font-weight: normal;
+}
+.arrow-hcc {
+    color: #0a1944 !Important;
+    font-family: 'Lato', serif !Important;
+    background: url(http://solution21inc.com/dev-hccdoc/wp-content/uploads/2016/09/arrow-2.png) no-repeat right 10px center;
+    display: block;
+    padding: 7px 21px;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    float: right;
+    margin-bottom: 3%;
+}
+.hvr-bounce-to-top:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #c26700;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.hvr-bounce-to-top:hover:before, .hvr-bounce-to-top:focus:before, .hvr-bounce-to-top:active:before {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
