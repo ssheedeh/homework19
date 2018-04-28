@@ -35,7 +35,7 @@
     background: url(http://solution21inc.com/dev-hccdoc/wp-content/uploads/2016/09/hccdoc-hybrid-ed.png) no-repeat center center;
 }
 .four-light-wrap h3, .four-light-mobile-wrap h3 {
-    font-size: 32px;
+    font-size: 23px;
     color: #fff;
     font-weight: normal;
 }
@@ -77,3 +77,12 @@
     -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
     transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
+.four-light-wrap, .four-light-mobile-wrap{
+    padding-top: 101px;
+}
+
+
+@media (min-width: 993px){
+.four-light-wrap, .four-light-mobile-wrap {
+    padding-bottom: 116px;
+}}
