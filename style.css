@@ -114,6 +114,27 @@ a.navbar-brand{
     padding-left: 16px;
     font-weight: bold;
 }
+.six-boxes {
+    text-align: center;
+    color: #4d4d4d;
+}
+.home-six-wrap a {
+    padding: 1em;
+    font-size: 39px;
+    border-radius: 50%;
+    line-height: 35px;
+    display: inline-block;
+    border: 5px solid;
+    color: #666666;
+}
+.home-six-wrap h2 {
+    font-size: 21px;
+    padding-bottom: 27px;
+}
+.home-six-text-wrap {
+    font-size: 16px;
+}
+
 
 @media (min-width: 993px){
 .four-light-wrap, .four-light-mobile-wrap {
